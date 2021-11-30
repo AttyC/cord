@@ -5,7 +5,7 @@ const Story = ({ story }) => (
     <img src={story.thumbnail} alt={story.headline} />
     <div className='text-wrapper'>
       <h2>
-        <Truncate lines={2} ellipsis={<span className='ellipsis'>...</span>}>
+        <Truncate lines={1} ellipsis={<span className='ellipsis'>...</span>}>
           {story.headline}
         </Truncate>
       </h2>

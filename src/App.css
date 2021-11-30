@@ -2,6 +2,16 @@ h2 {
   font-weight: normal;
   margin-top: 0;
 }
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .story-grid {
+    padding: 3em;
+  }
+  .story-wrapper {
+    width: 40%;
+  }
+}
 .story-grid {
   background: #e9e9e9;
   display: flex;
@@ -9,17 +19,15 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
   list-style-type: none;
-  padding: 3em;
+  padding: 1em;
 }
 .story-wrapper {
   background: #fff;
   border: 1px solid #d6d4d4;
   border-radius: 10px 30px 10px 10px;
-  box-shadow: #d2d2d2;
   display: flex;
   margin: 1rem;
   padding: 1rem;
-  width: 40%;
 }
 img {
   border-radius: 10px;
