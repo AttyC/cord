@@ -7,6 +7,8 @@ I used a simple stylesheet as per the instructions to be keep within the time co
 ## To run the app
 
 Clone this repo into Terminal (on a Mac)
+
+Install the packages with ```yarn install```
   
 Run the code with ```yarn start```
 
